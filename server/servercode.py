@@ -14,7 +14,7 @@ app.secret_key = "super32"
 CORS(app)
 
 try:
-     client = pymongo.MongoClient("mongodb+srv://s1dupase34:HAorqpsKc8dbNDJ0@cluster0.czjp43z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+     client = pymongo.MongoClient("your_mongoDB_atlas_url")
      mongo_db = client['Reviews']  # Replace 'your_database_name' with the name of your MongoDB database
      mongo_collection = mongo_db['productReviews']  # Replace 'your_collection_name' with the name of your MongoDB collection
      if(mongo_collection):
