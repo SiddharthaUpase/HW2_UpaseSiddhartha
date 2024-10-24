@@ -1,0 +1,98 @@
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.categoryUl {
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-wrap: wrap; /* This will allow items to move to the next line if they overflow */
+}
+.product-list {
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 100%;
+
+
+}
+
+.product-list ul {
+    display: flex;
+    justify-content: space-evenly; 
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    width: 70px; /* Ensure width is fixed */
+    height: 70px; /* Ensure height is fixed */
+    background-color: #00eeff;
+    border: #333;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.product:hover {
+    background-color: #00ff00;
+}
+
+
+.categories h2 {
+    color: green;
+  }
+
+  .category_li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style: none;
+    background-color: #ffffff;
+    padding: 20px;
+    border: #333;
+    border-radius: 5px;
+    margin: 10px 0;
+    height: 300px;
+    width: 20%;
+    position: relative;
+
+
+  }
+  .add-product-btn {
+   position: absolute;
+   bottom: 10px;
+    right: 10px;
+}
+
+
+
+ 
+
+
+
+
+
+ 

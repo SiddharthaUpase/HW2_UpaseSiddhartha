@@ -1,0 +1,220 @@
+
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Smart Doorbells",
+        "products": [
+          {
+            "id": 101,
+            "categoryId": 1,
+            "price": 249.99,
+            "name": "Ring Video Doorbell Pro 2",
+            "description": "A smart doorbell with advanced motion detection and 3D video technology.",
+            "images": [
+              "https://via.placeholder.com/150",
+              "https://via.placeholder.com/200",
+              "https://via.placeholder.com/300",
+              "https://via.placeholder.com/400",
+              "https://via.placeholder.com/500"
+            ]
+          },
+          {
+            "id": 102,
+            "categoryId": 1,
+            "price": 179.99,
+            "name": "Google Nest Doorbell",
+            "description": "A battery-powered smart doorbell with HD video and night vision.",
+            "images": [
+                "https://via.placeholder.com/150",
+                "https://via.placeholder.com/200",
+                "https://via.placeholder.com/300",
+                "https://via.placeholder.com/400",
+                "https://via.placeholder.com/500"
+            ]
+          },
+            {
+                "id": 103,
+                "categoryId": 1,
+                "price": 199.99,
+                "name": "Arlo Essential Video Doorbell Wire-Free",
+                "description": "A wire-free smart doorbell with 180-degree viewing angle and weather resistance.",
+                "images": [
+                    "https://via.placeholder.com/150",
+                    "https://via.placeholder.com/200",
+                    "https://via.placeholder.com/300",
+                    "https://via.placeholder.com/400",
+                    "https://via.placeholder.com/500"
+                ]
+            }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Smart Doorlocks",
+        "products": [
+          {
+            "id": 201,
+            "categoryId": 2,
+            "price": 249.99,
+            "name": "August Wi-Fi Smart Lock",
+            "description": "A smart lock with easy installation and remote access control.",
+            "images": [
+                "https://via.placeholder.com/150",
+                "https://via.placeholder.com/200",
+                "https://via.placeholder.com/300",
+                "https://via.placeholder.com/400",
+                "https://via.placeholder.com/500"
+            ]
+          },
+          {
+            "id": 202,
+            "categoryId": 2,
+            "price": 199.99,
+            "name": "Yale Assure Lock SL",
+            "description": "A sleek, key-free smart lock that can be controlled via app.",
+            "images": [
+                "https://via.placeholder.com/150",
+                "https://via.placeholder.com/200",
+                "https://via.placeholder.com/300",
+                "https://via.placeholder.com/400",
+                "https://via.placeholder.com/500"
+            ]
+          },
+
+          {
+            "id": 203,
+            "categoryId": 2,
+            "price": 249.99,
+            "name": "Schlage Encode Smart WiFi Deadbolt",
+            "description": "A smart deadbolt with built-in WiFi and secure encryption.",
+            "images": [
+                "https://via.placeholder.com/150",
+                "https://via.placeholder.com/200",
+                "https://via.placeholder.com/300",
+                "https://via.placeholder.com/400",
+                "https://via.placeholder.com/500"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Smart Speakers",
+        "products": [
+          {
+            "id": 301,
+            "categoryId": 3,
+            "price": 99.99,
+            "name": "Amazon Echo (4th Gen)",
+            "description": "A smart speaker with Alexa, improved sound, and a built-in hub.",
+            "images": [
+                "https://via.placeholder.com/150",
+                "https://via.placeholder.com/200",
+                "https://via.placeholder.com/300",
+                "https://via.placeholder.com/400",
+                "https://via.placeholder.com/500"
+            ]
+          },
+          {
+            "id": 302,
+            "categoryId": 3,
+            "price": 99.99,
+            "name": "Google Nest Audio",
+            "description": "A smart speaker with high-quality sound and voice assistant integration.",
+            "images": [
+                "https://via.placeholder.com/150",
+                "https://via.placeholder.com/200",
+                "https://via.placeholder.com/300",
+                "https://via.placeholder.com/400",
+                "https://via.placeholder.com/500"
+            ]
+          },
+
+          {
+            "id": 303,
+            "categoryId": 3,
+            "price": 99.99,
+            "name": "Apple HomePod mini",
+            "description": "A smart speaker with Siri, high-fidelity audio, and seamless integration with Apple devices.",
+            "images": [
+                "https://via.placeholder.com/150",
+                "https://via.placeholder.com/200",
+                "https://via.placeholder.com/300",
+                "https://via.placeholder.com/400",
+                "https://via.placeholder.com/500"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Smart Lightings",
+        "products": [
+          {
+            "id": 401,
+            "categoryId": 4,
+            "price": 199.99,
+            "name": "Philips Hue White and Color Ambiance",
+            "description": "Smart LED lights with 16 million colors and voice control compatibility.",
+            "images": [
+                "https://via.placeholder.com/150",
+                "https://via.placeholder.com/200",
+                "https://via.placeholder.com/300",
+                "https://via.placeholder.com/400",
+                "https://via.placeholder.com/500"
+            ]
+          },
+          {
+            "id": 402,
+            "categoryId": 4,
+            "price": 59.99,
+            "name": "LIFX Smart LED Light Bulb",
+            "description": "A Wi-Fi-enabled smart light bulb with vibrant colors and no hub required.",
+            "images": [
+                "https://via.placeholder.com/150",
+                "https://via.placeholder.com/200",
+                "https://via.placeholder.com/300",
+                "https://via.placeholder.com/400",
+                "https://via.placeholder.com/500"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Smart Thermostats",
+        "products": [
+          {
+            "id": 501,
+            "categoryId": 5,
+            "price": 249.99,
+            "name": "Google Nest Learning Thermostat",
+            "description": "A smart thermostat that learns your schedule and saves energy.",
+            "images": [
+                "https://via.placeholder.com/150",
+                "https://via.placeholder.com/200",
+                "https://via.placeholder.com/300",
+                "https://via.placeholder.com/400",
+                "https://via.placeholder.com/500"
+            ]
+          },
+          {
+            "id": 502,
+            "categoryId": 5,
+            "price": 249.99,
+            "name": "Ecobee SmartThermostat with Voice Control",
+            "description": "A smart thermostat with built-in Alexa and room sensor compatibility.",
+            "images": [
+                "https://via.placeholder.com/150",
+                "https://via.placeholder.com/200",
+                "https://via.placeholder.com/300",
+                "https://via.placeholder.com/400",
+                "https://via.placeholder.com/500"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

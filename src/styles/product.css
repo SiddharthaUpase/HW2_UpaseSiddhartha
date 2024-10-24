@@ -1,0 +1,77 @@
+  .product-list ul {
+    padding: 0;
+    align-self: center;
+  }
+
+  .product-list li {
+    list-style: none;
+    background-color: #00eeff;
+    padding: 20px;
+    border: #333;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+
+  .product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+  }
+
+  .product-detail-content {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+  }
+
+  .product-detail-content .product_img {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .product-detail-content .product_img_list {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .product-detail-content .product_content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+  }
+
+    .product-detail-content .product_content >button {
+    width: 35%;
+  }
+
+
+
+  .product_img_list_item {
+    width: 70px; /* Specify a unit */
+    height: 70px; /* Specify a unit */
+    margin-bottom: 20px;
+    margin-left: 70px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+  .product_img_list_item:hover {
+    border: 4px solid #000000; /* Change the border color on hover */
+    border-radius: 5px;
+  }
+
+

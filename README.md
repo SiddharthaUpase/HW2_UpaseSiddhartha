@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+Assignment 2 - README
+Overview
+This document provides instructions on how to run Assignment 2. The project is developed using React for the frontend and Flask for the backend. The backend uses SQLite for local database management and is connected to a MongoDB account for remote data handling.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tech Stack
+Frontend: React
+Backend: Flask
+Database: SQLite (local) & MongoDB (remote)
+Getting Started
+To run the project locally, follow the steps below after unzipping the provided project files.
 
-## Available Scripts
+Prerequisites
+Ensure that the following software is installed on your machine:
 
-In the project directory, you can run:
+Python (v3.6 or higher)
+Node.js (v14 or higher)
+npm (comes with Node.js)
+Flask (Python Flask library)
+SQLite (Comes pre-installed with Python)
+Setup Instructions
+Unzip the Project Files
 
-### `npm start`
+Unzip the downloaded project folder to a preferred location on your machine.
+Set Up Backend (Flask)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Navigate to the unzipped project folder and then to the backend directory.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Run the Flask server with the following command:
 
-### `npm test`
+bash
+Copy code
+python servercode.py
+This will:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Start the Flask server.
+Create a local SQLite database (productdb.sqlite) to store and fetch data.
+Set Up Frontend (React)
 
-### `npm run build`
+In a new terminal window, navigate to the frontend directory within the unzipped project folder.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Install necessary dependencies and start the React development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+bash
+Copy code
+npm install
+npm start
+This will:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Install all required frontend packages.
+Start the React application, accessible at http://localhost:3000.
+Backend and Database Configuration
+The Flask backend is integrated with a remote MongoDB account for managing product data.
+Locally, a SQLite database (productdb.sqlite) is automatically created by the Flask server to store and retrieve the necessary data.
+Running the Application
+Ensure the Flask backend is running:
 
-### `npm run eject`
+bash
+Copy code
+python servercode.py
+Ensure the React frontend is running:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+bash
+Copy code
+npm start
+Open your browser and navigate to:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+arduino
+Copy code
+http://localhost:3000
+This will display the React frontend connected to the Flask backend.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Additional Notes
+Database: The backend creates an SQLite database (productdb.sqlite) locally. For remote storage, the backend connects to a MongoDB instance.

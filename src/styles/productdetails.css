@@ -1,0 +1,120 @@
+/* General styling for product detail page */
+.product-detail {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .product-detail-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  /* Image list styling */
+  .product_img_list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .product_img_list img {
+    cursor: pointer;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .product_img_list img:hover {
+    border-color: #333;
+  }
+  
+  /* Main product image */
+  .product_img img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Product content styling */
+  .product_content {
+    max-width: 500px;
+    margin-left: 20px;
+  }
+  
+  .product_content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product_content p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .product_content p span {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  /* Quantity control styling */
+  .quantity-control {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .quantity-control button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .quantity-control button:hover {
+    background-color: #45a049;
+  }
+  
+  .quantity-control span {
+    font-size: 18px;
+    margin: 0 10px;
+  }
+  
+  /* Add to cart button */
+.addToCart {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 10px;
+}
+
+.addToCart:hover {
+    background-color: #26e600;
+}
+
+.addToCart:active {
+    transform: scale(0.95);
+}
+  
+  /* Dialog popup styling */
+  .MuiDialog-paper {
+    padding: 20px;
+  }
+  
+  .MuiDialogTitle-root {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+
+  

@@ -1,0 +1,42 @@
+/* TrendingPage.css */
+
+.trending-page {
+    font-family: Arial, sans-serif;
+
+    margin: 0 auto;
+}
+
+.trending-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filter-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.filter-option {
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.product-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 5px 0;
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

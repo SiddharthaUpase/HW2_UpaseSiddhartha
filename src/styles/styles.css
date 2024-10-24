@@ -1,0 +1,107 @@
+/* src/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .app-container {
+    text-align: center;
+    margin: 20px;
+  }
+  .home-container {
+    position: relative;
+    width: 100%;
+    /* background-image: url('https://plus.unsplash.com/premium_photo-1664443577542-06294d3354ff?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
+    height: 1000px;
+    flex-direction: column;
+    align-items: center;
+    color: grey;
+    align-items: center;
+  
+  }
+  
+  .home_content_bg {
+    left: 50;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgb(255,194,103) 30%, rgba(255, 255, 255, 0) 80%); /* Gradient background */
+    z-index: 1;
+  }
+  
+  .home_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+
+  .carousel {
+    width: 100%;
+    height: 100%;
+    padding-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-logo{
+    color: white;
+    padding: 10px;
+  }
+  .navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    z-index: 1000;
+
+  }
+  .navbar_right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .navbar_center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar_center .search-bar {
+    /* Add your styles here */
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+.search-button{
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+
+  }
+
+
+
+  
